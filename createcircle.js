@@ -14,12 +14,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const mouseX = event.clientX -50;
     const mouseY = event.clientY -50;
+    const size = document.getElementById("input").value
 
 
     const circle = document.createElement('div')
     circle.classList.add("circle");  
     circle.style.left = `${mouseX}px`;
     circle.style.top = `${mouseY}px`;
+    circle.style.height = size
+    circle.style.width = size
     circle.style.backgroundColor = randomColor;
     backgroundContainer.appendChild(circle)
 

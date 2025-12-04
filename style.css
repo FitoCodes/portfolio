@@ -9,8 +9,8 @@
   position:fixed;
   background-color: #5dac61; 
   border-radius: 50%;
-  height: 100px;
-  width: 100px
+  /*height: 100px;
+  width: 100px*/
 }
 
 #interactive-background {
