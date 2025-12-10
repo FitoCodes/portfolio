@@ -9,8 +9,15 @@
   position:fixed;
   background-color: #5dac61; 
   border-radius: 50%;
-  /*height: 100px;
-  width: 100px*/
+  height: 10px;
+  width: 10px
+}
+  .diagonal-line {
+  width: 200px; 
+  height: 2px; 
+  background-color: black;
+  transform: rotate(45deg);
+  transform-origin: 90 90;
 }
 
 #interactive-background {
@@ -22,3 +29,4 @@
     overflow: hidden;
     z-index: -1;
 }
+
