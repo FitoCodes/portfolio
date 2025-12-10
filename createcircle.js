@@ -32,7 +32,8 @@ document.addEventListener('DOMContentLoaded', () => {
     line.classList.add("diagonal-line");  
     line.style.height = 100
     line.style.width = 2
-    line.style.transform
+    line.style.transform-origin; `${mouseX}px`, `${mouseY}px`;
+    
 
 
     //width: 200px; 
@@ -40,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
   //background-color: black;
   //transform: rotate(45deg);
   //transform-origin: 90 90;
-  //https://docs.google.com/document/d/1ukq88CqcKbPi9wm9_I9oVzYtb-LRcbHuY_kyX6cKCcM/edit?tab=t.0
+  //https://docs.google.com/document/d/1llzGkr5lx1DYxMe79SJiWSkW06vHChdWhp7CrgcdnJM/edit?tab=t.0
 
 
   
