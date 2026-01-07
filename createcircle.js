@@ -30,16 +30,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const line = document.createElement('div')
     line.classList.add("diagonal-line");  
-    line.style.height = 100
-    line.style.width = 2
-    line.style.transform-origin; `${mouseX}px`, `${mouseY}px`;
+    //let angle = 45;
+    //line.style.transform = `rotate(${angle}deg)`;
+    //line.style.transform-origin; `${mouseX}px`, `${mouseY}px`;
     
 
 
     //width: 200px; 
   //height: 2px; 
   //background-color: black;
-  //transform: rotate(45deg);
+  //
   //transform-origin: 90 90;
   //https://docs.google.com/document/d/1llzGkr5lx1DYxMe79SJiWSkW06vHChdWhp7CrgcdnJM/edit?tab=t.0
 
